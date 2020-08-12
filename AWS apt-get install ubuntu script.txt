@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #######################################################
-##### UBUNTU SERVER FOR MOMODU FAMILY             #####
+#####             UBUNTU SERVER                   #####
 #######################################################
 
 # get admin privileges
@@ -14,4 +14,4 @@ sudo systemctl restart apache2.service
 sudo apt-get install curl -y
 sudo apt-get install php -y
 sudo ufw enable
-echo "Greeting Everyone My name is Jamiu Momodu 40 years from $(hostname -f)" > /var/www/html/index.html
+echo "Apache Server from $(hostname -f)" > /var/www/html/index.html
