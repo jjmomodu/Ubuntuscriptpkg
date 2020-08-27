@@ -6,12 +6,12 @@
 
 # get admin privileges
 
-sudo su
+    sudo su
 
-sudo apt-get update
-sudo apt-get install apache2 -y
-sudo systemctl restart apache2.service
-sudo apt-get install curl -y
-sudo apt-get install php -y
-sudo ufw enable
-echo "Apache Server from $(hostname -f)" > /var/www/html/index.html
+     sudo apt-get update
+         sudo apt-get install apache2 -y
+            sudo systemctl restart apache2.service
+            sudo apt-get install curl -y
+          sudo apt-get install php -y
+        sudo ufw enable
+    echo "Apache Server from $(hostname -f)" > /var/www/html/index.html
